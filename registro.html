@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/maloik.png">
+    <!--- KIT DE ICONOS FONT AWESOME --->
+    <script src="https://kit.fontawesome.com/d9947da715.js" crossorigin="anonymous"></script>
+    <title>Registro</title>
+</head>
+<body>
+    <!--- MENU DE NAVEGACION --->
+    <div class="header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="albumes.html">Albumes</a></li>
+                <li><a href="playlist.html">Playlists</a></li>
+                <li>
+                    <a href="documentales/documentales.html">Documentales</a>
+                    <ul class="submen">
+                        <li><a href="documentales/conciertos.html">Festivales</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="../Recomendaciones.html">Mas Generos</a>
+                    <ul class="submenu">
+                        <li><a href="./recomendaciones/black-metal.html">Black Metal</a></li>
+                        <li><a href="./recomendaciones/death-metal.html">Death Metal</a></li>
+                        <li><a href="./recomendaciones/trash-metal.html">Trash Metal</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>  
+    <!--- FORMULARIO PARA REGISTRARSE --->
+    <div class="signupFrm">
+        <form class="form" action="index.html">
+            <h1 class="title">Registrarse</h1>
+
+            <div class="inputContainer">
+                <span>Por favor, introduzca una dirección de correo electrónico: </span>
+                <input id="email"  type="email" class="input" placeholder="Ingresa tu email" required>
+                <label for="" class="label">Email</label>
+            </div>
+
+            <div class="inputContainer">
+                <input id="usuario" type="text" class="input" placeholder="Ingresa tu nombre" required>
+                <label for="" class="label">Nombre</label>
+            </div>
+            <div class="inputContainer">
+                <input type="password" class="input" placeholder="Ingresa tu contraseña" required>
+                <label for="" class="label">Contraseña</label>
+                <span toggle="#passwordInput" class="eye toggle-password"><i class="fa fa-eye-slash"></i></span>
+            </div>
+            <div class="inputContainer">
+                <input type="password" class="input" placeholder="Confirma tu contraseña" required>
+                <label for="" class="label">Confrma tu Contraseña</label> 
+            </div>
+            <a href="iniciar-sesion.html"><h3>¿Ya tienes cuenta?</h3></a>
+            <input type="submit" class="submitBtn" value="Registrarse" id="btn-enviar">
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+    <div class="pie-pagina">
+        <footer>
+            <p>Nuestra pagina web, sugerencias de albumes, bandas y mas</p>
+            <h4>Developer: Nicolas  &copy;2024</h4>
+            <p>Contactanos: <a href="#">sugbandas@gmail.com</a></p>
+            <!--- ICONOS --->
+            <i class="fab fa-facebook"><a href="">Facebook</a></i>
+            <i class="fab fa-twitter"><a href="">Twitter</a></i>
+            <i class="fab fa-instagram"><a href="">Instagram</a></i>
+            <i class="fab fa-youtube"><a href="">Youtube</a></i>
+        </footer>
+    </div>
+</body>
+</html>
