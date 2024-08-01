@@ -332,7 +332,7 @@ nav ul li a:hover {
     box-shadow: rgba(11, 11, 11, 0.515);
     border-radius: 3px;
     cursor: pointer;
-    color: #000;
+    color: #ddd;
     font-weight: bold;
     font-size: 14px;
 }
@@ -348,7 +348,7 @@ nav ul li a:hover {
 }
 .pie-pagina a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 .pie-pagina a:hover{
     background: #202021;
