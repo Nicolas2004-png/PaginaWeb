@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: #fafbfd;
+    background-color: #e5eeff;
 }
 
 /* ESTILOS PARA EL MENU DE NAVEGACION */
@@ -107,7 +107,7 @@ nav ul li a:hover {
     text-align: left;
 }
 .bandas h2::selection{
-    background: #333;
+    background: #d5d2d2;
 }
 
 .band-info {
@@ -148,7 +148,7 @@ nav ul li a:hover {
 }
 
 .band-info a:hover {
-    color: #1ed760 ;
+    color: #1ed760;
 }
 
 .band-info span {
@@ -358,6 +358,7 @@ nav ul li a:hover {
 .pie-pagina a::selection{
     background: #333;
 }
+
 
 
 
